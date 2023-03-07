@@ -31,6 +31,9 @@ class Player{
         // c.fillStyle='red';
         // c.fillRect(this.position.x,this.position.y,this.width,this.height);
         c.save();
+        c.translate(player.position.x+player.width/2, player.position.y+player.height/2);
+        c.rotate(this.rotation);
+        c.translate(-player.position.x-player.width/2, -player.position.y-player.height/2);
         c.drawImage(this.image, this.position.x, this.position.y, this.width, this.height);
         c.restore();
     };
@@ -67,8 +70,10 @@ function animate(){
         player.rotation = -0.15;
     }else if(keys.d.pressed &&player.position.x + player.width <=canvas.width){
         player.velocity.x = 6;
+        player.rotation = 1;
     } else{
         player.velocity.x = 0;
+        player.rotation = 0;
     }
 };
 animate();
