@@ -6,8 +6,8 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 
 * [x] Project setup
 * [x] Create a player
-* [ ] Move the player
-* [ ] Create projectiles
+* [x] Move the player
+* [x] Create projectiles
 * [ ] Create an invader
 * [ ] Create and move grids of invaders
 * [ ] Spawn grinds at intervals
