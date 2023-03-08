@@ -8,7 +8,7 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Create a player
 * [x] Move the player
 * [x] Create projectiles
-* [ ] Create an invader
+* [x] Create an invader
 * [ ] Create and move grids of invaders
 * [ ] Spawn grinds at intervals
 * [ ] Shoot invaders
@@ -19,4 +19,4 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [ ] Score
 * [ ] Fixed-width canvas
 
-Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www.youtube.com/watch?v=MCVU0w73uKI&list=WL&index=9&t=21s&ab_channel=ChrisCourses).
+Práctica: [link](https://hydr0bius.github.io/Space-Invaders/).
