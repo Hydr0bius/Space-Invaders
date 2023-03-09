@@ -9,7 +9,7 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Move the player
 * [x] Create projectiles
 * [x] Create an invader
-* [ ] Create and move grids of invaders
+* [x] Create and move grids of invaders
 * [ ] Spawn grinds at intervals
 * [ ] Shoot invaders
 * [ ] Invaders shoot back
