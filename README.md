@@ -13,8 +13,8 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Spawn grinds at intervals
 * [x] Shoot invaders
 * [x] Take into account new grid width
-* [ ] Invaders shoot back
-* [x] Enemy explosions
+* [x] Invaders shoot back
+* [ ] Enemy explosions
 * [ ] Create background stars
 * [ ] Lose condition
 * [ ] Score
