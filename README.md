@@ -10,10 +10,11 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Create projectiles
 * [x] Create an invader
 * [x] Create and move grids of invaders
-* [ ] Spawn grinds at intervals
-* [ ] Shoot invaders
+* [x] Spawn grinds at intervals
+* [x] Shoot invaders
+* [x] Take into account new grid width
 * [ ] Invaders shoot back
-* [ ] Enemy explosions
+* [x] Enemy explosions
 * [ ] Create background stars
 * [ ] Lose condition
 * [ ] Score
