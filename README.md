@@ -14,7 +14,7 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Shoot invaders
 * [x] Take into account new grid width
 * [x] Invaders shoot back
-* [ ] Enemy explosions
+* [x] Enemy explosions
 * [ ] Create background stars
 * [ ] Lose condition
 * [ ] Score
