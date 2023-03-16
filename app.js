@@ -226,7 +226,7 @@ let frames = 0;
 let randomInterval = Math.floor((Math.random()*500)+500);
 
 function createParticles({object, color}){
-    for(leti=0;i<15;i++){
+    for(let i=0;i<15;i++){
         particles.push(new Particle({
             position:{
                 x:object.position.x + object.width / 2,
