@@ -15,8 +15,8 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Take into account new grid width
 * [x] Invaders shoot back
 * [x] Enemy explosions
-* [ ] Create background stars
-* [ ] Lose condition
+* [x] Create background stars
+* [x] Lose condition
 * [ ] Score
 * [ ] Fixed-width canvas
 
