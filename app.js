@@ -274,7 +274,7 @@ function animate(){
                 console.log('you loose');
                 createParticles({
                     object: player,
-                    color: 'white;'
+                    color: 'white',
                 });
         };
     });
