@@ -12,6 +12,7 @@ class Player{
         };
 
         this.rotation = 0;
+        this.opacity = 1;
         
         const image = new Image();
         image.src = './image/spaceship.png';
@@ -31,6 +32,7 @@ class Player{
         // c.fillStyle='red';
         // c.fillRect(this.position.x,this.position.y,this.width,this.height);
         c.save();
+        c.globalAlpha = this.opacity;
         c.translate(player.position.x+player.width/2, player.position.y+player.height/2);
         c.rotate(this.rotation);
         c.translate(-player.position.x-player.width/2, -player.position.y-player.height/2);
@@ -241,6 +243,10 @@ for(let i=0;i<100;i++){
 
 let frames = 0;
 let randomInterval = Math.floor((Math.random()*500)+500);
+let game = {
+    over: false,
+    active: true,
+};
 
 function createParticles({object, color, fades}){
     for(let i=0;i<15;i++){
@@ -261,6 +267,7 @@ function createParticles({object, color, fades}){
 };
 
 function animate(){
+    if(!game.active) return
     requestAnimationFrame(animate);
     c.fillStyle='black';
     c.fillRect(0,0, canvas.width,canvas.height);
@@ -293,8 +300,15 @@ function animate(){
             && InvaderProjectile.position.x <= player.position.x + player.width){
                 setTimeout(()=>{
                     InvaderProjectiles.splice(index,1);
+                    player.opacity = 0;
+                    game.over = true;
                 },0);
-                console.log('you loose');
+
+                setTimeout(()=>{
+                    game.active = false;
+                },1000);
+
+                console.log('you lose');
                 createParticles({
                     object: player,
                     color: 'white',
@@ -390,6 +404,7 @@ function animate(){
 animate();
 
 addEventListener('keydown', ({key})=>{
+    if (game.over) return
     switch(key){
         case 'a':
             // console.log('left');
