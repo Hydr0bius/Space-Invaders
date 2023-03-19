@@ -17,7 +17,7 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Enemy explosions
 * [x] Create background stars
 * [x] Lose condition
-* [ ] Score
-* [ ] Fixed-width canvas
+* [x] Score
+* [x] Fixed-width canvas
 
 Práctica: [link](https://hydr0bius.github.io/Space-Invaders/).
