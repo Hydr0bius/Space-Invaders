@@ -21,3 +21,5 @@ Tutorial de ***Chris Courses***, video en el siguiente enlace [link](https://www
 * [x] Fixed-width canvas
 
 Práctica: [link](https://hydr0bius.github.io/Space-Invaders/).
+
+![game](image/front.png)
