@@ -2,10 +2,20 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+div{
+    margin-top: 5vh;
+    position: relative;
+}
 p{
     font-family: sans-serif;
     font-size: 16px;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     color: white;
     top: 10px;
